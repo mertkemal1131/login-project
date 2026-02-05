@@ -33,7 +33,7 @@ export default function Login({ onSuccess }) {
       />
 
       {!isEmailValid && email && (
-        <p style={{ color: 'red' }}>Geçerli bir email giriniz</p>
+        <p>Geçerli bir email giriniz</p>
       )}
 
       <input
@@ -45,9 +45,7 @@ export default function Login({ onSuccess }) {
       />
 
       {!isPasswordValid && password && (
-        <p style={{ color: 'red' }}>
-          Şifre en az 8 karakter, 1 büyük harf ve 1 sayı içermelidir
-        </p>
+        <p>Şifre en az 8 karakter, 1 büyük harf ve 1 sayı içermelidir</p>
       )}
 
       <label>
